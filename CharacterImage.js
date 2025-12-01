@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-
 const API_BASE = "http://localhost:7000";
-
 export default function CharacterImage() {
   const [info, setInfo] = useState([]);
 
@@ -178,3 +176,4 @@ export default function CharacterImage() {
     </div>
   );
 }
+
