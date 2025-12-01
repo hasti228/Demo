@@ -14,6 +14,8 @@ export default function TaskList({
     </ul>
   );
 }
+
+
 function Task({ task, onChange, onDelete }) {
   const [isEditing, setIsEditing] = useState(false);
   let taskContent;
@@ -113,3 +115,4 @@ function Task({ task, onChange, onDelete }) {
     </label>
   );
 }
+
